@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    background-color: #1c1c1c;
+    color: #f1f1f1;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: #f1f1f1 !important;
+  }
+  
+  .nav-link.active,
+  .nav-link:hover {
+    color: #00ff00 !important;
+  }
+  
+  /* Estilos del contenido principal */
+  .container {
+    margin-top: 80px;
+  }
+  
+  h1 {
+    color: #00ff00;
+  }
+  
+  p {
+    color: #f1f1f1;
+  }
+  
+  /* Estilos del pie de página */
+  .footer {
+    background-color: #333;
+    color: #f1f1f1;
+  }
+  
+  .text-muted {
+    color: #aaa !important;
+  }
+  
+  /* Estilos del formulario de búsqueda */
+  .form-control {
+    background-color: #444;
+    border-color: #555;
+    color: #f1f1f1;
+  }
+  
+  .btn-outline-success {
+    color: #00ff00;
+    border-color: #00ff00;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #00ff00;
+    color: #1c1c1c;
+  }
+  
