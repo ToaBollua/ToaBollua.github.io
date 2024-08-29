@@ -1,10 +1,8 @@
-/* Estilos generales */
 body {
     background-color: #1c1c1c;
     color: #f1f1f1;
   }
   
-  /* Estilos de la barra de navegación */
   .navbar {
     background-color: #333;
   }
@@ -19,7 +17,6 @@ body {
     color: #00ff00 !important;
   }
   
-  /* Estilos del contenido principal */
   .container {
     margin-top: 80px;
   }
@@ -31,8 +28,7 @@ body {
   p {
     color: #f1f1f1;
   }
-  
-  /* Estilos del pie de página */
+
   .footer {
     background-color: #333;
     color: #f1f1f1;
@@ -42,7 +38,7 @@ body {
     color: #aaa !important;
   }
   
-  /* Estilos del formulario de búsqueda */
+
   .form-control {
     background-color: #444;
     border-color: #555;
@@ -59,3 +55,13 @@ body {
     color: #1c1c1c;
   }
   
+@font-face {
+    font-family: 'Miracode';
+    src: 'src/fonts/Miracode.ttf' format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-custom {
+    font-family: 'Miracode', sans-serif;
+}
