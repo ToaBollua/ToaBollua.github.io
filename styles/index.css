@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Miracode';
+    src: 'src/fonts/Miracode.ttf' format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-custom {
+    font-family: 'Miracode', sans-serif;
+}
+
 body {
     background-color: #1c1c1c;
     color: #f1f1f1;
@@ -23,10 +34,12 @@ body {
   
   h1 {
     color: #00ff00;
+    font-family: 'Miracode', sans-serif;
   }
   
   p {
     color: #f1f1f1;
+    font-family: 'Miracode', sans-serif;
   }
 
   .footer {
@@ -36,6 +49,7 @@ body {
   
   .text-muted {
     color: #aaa !important;
+    font-family: 'Miracode', sans-serif;
   }
   
 
@@ -55,13 +69,3 @@ body {
     color: #1c1c1c;
   }
   
-@font-face {
-    font-family: 'Miracode';
-    src: 'src/fonts/Miracode.ttf' format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.font-custom {
-    font-family: 'Miracode', sans-serif;
-}
