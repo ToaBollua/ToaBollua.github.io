@@ -3,197 +3,247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOA BOLLUA // ARCHITECT</title>
+    <title>TOA BOLLUA // TERMINAL</title>
     <link rel="icon" href="assets/logo.png" type="image/png">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50">
 
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
-        <div class="container">
-            <a class="navbar-brand font-tech text-neon" href="#">
-                <img src="assets/logo.png" alt="Logo" height="30" class="d-inline-block align-text-top me-2">
-                TOA_BOLLUA_
+    <div class="scanlines"></div>
+    <div class="vignette"></div>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top terminal-nav">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand font-tech text-neon glitch-hover" href="#">
+                [ROOT@TOA_BOLLUA:~]$
             </a>
-            <button class="navbar-toggler border-neon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler border-neon rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="text-neon"><i class="bi bi-list"></i></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav font-mono small">
-                    <li class="nav-item"><a class="nav-link" href="#about">01. PERFIL</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#h0p3">02. H0P3</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">03. PROYECTOS</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">04. ENLACE</a></li>
+                <ul class="navbar-nav font-mono small text-uppercase">
+                    <li class="nav-item"><a class="nav-link" href="#profile">/USR/PROFILE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">/VAR/PROJECTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">/OPT/GALLERY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#socials">/NET/LINKS</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section id="home" class="hero-section d-flex align-items-center justify-content-center text-center">
-        <div class="video-overlay"></div>
+    <section id="home" class="min-vh-100 d-flex align-items-center justify-content-center text-center position-relative">
         <div class="container position-relative z-2" data-aos="zoom-in">
-            <h1 class="display-1 fw-bold font-tech glitch" data-text="TOA BOLLUA">TOA BOLLUA</h1>
-            <p class="lead font-mono text-success mt-3">
-                <span class="typewriter">> Creative Technologist // AI Architect_</span>
-            </p>
-            <div class="mt-4">
-                <a href="#h0p3" class="btn btn-outline-neon font-mono px-4 py-2 me-2">VER SISTEMAS</a>
-                <a href="https://github.com/toabollua" target="_blank" class="btn btn-outline-light font-mono px-4 py-2"><i class="bi bi-github"></i> GITHUB</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="section-padding container">
-        <div class="row align-items-center">
-            <div class="col-md-5 text-center mb-4 mb-md-0" data-aos="fade-right">
-                <div class="avatar-container">
-                    <img src="assets/smirkredesign.webp" alt="Bollua Avatar" class="img-fluid rounded-circle border-neon-glow main-avatar">
-                </div>
-            </div>
-            <div class="col-md-7" data-aos="fade-left">
-                <h2 class="font-tech text-white mb-4"><span class="text-neon">01.</span> SOBRE EL ARQUITECTO</h2>
-                <div class="font-sans text-gray-300">
-                    <p class="lead">Ingeniero Full Stack apasionado por la intersección entre lógica estricta y narrativa caótica.</p>
-                    <p>No solo escribo código; construyo ecosistemas. Desde la arquitectura de microservicios hasta el arte técnico generativo, mi objetivo es fusionar la eficiencia de la máquina con la creatividad humana.</p>
-                    <p>Actualmente enfocado en el desarrollo de <strong>Inteligencias Artificiales Soberanas</strong> y entornos inmersivos.</p>
-                </div>
-                <div class="mt-4 font-mono small text-success">
-                    <span class="me-3">> ARCH_LINUX_HOST</span> <span class="me-3">> DOCKER_NATIVE</span>
-                    <span>> VITE_REACT</span>
+            <div class="terminal-box p-4 p-md-5 d-inline-block">
+                <p class="font-mono text-dim mb-0 text-start">> INITIALIZING SYSTEM...</p>
+                <p class="font-mono text-dim mb-4 text-start">> LOADING IDENTITY...</p>
+                <h1 class="display-1 fw-bold font-tech text-white glitch" data-text="TOA BOLLUA">TOA BOLLUA</h1>
+                <h2 class="h4 font-mono text-neon mt-3">> CREATIVE_TECHNOLOGIST & AI_ARCHITECT<span class="blink">_</span></h2>
+                
+                <div class="mt-5 d-flex gap-3 justify-content-center flex-wrap">
+                    <a href="#projects" class="btn btn-terminal font-mono">EXECUTE PORTFOLIO</a>
+                    <a href="https://github.com/toabollua" target="_blank" class="btn btn-terminal-outline font-mono"><i class="bi bi-github"></i> GITHUB</a>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="profile" class="section-padding container">
+        <div class="terminal-border p-4">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-4 mb-md-0" data-aos="fade-right">
+                    <div class="avatar-frame">
+                        <img src="assets/bollua.png" alt="Avatar" class="img-fluid terminal-img">
+                        <div class="corner-top-left"></div>
+                        <div class="corner-bottom-right"></div>
+                    </div>
+                </div>
+                <div class="col-md-8" data-aos="fade-left">
+                    <h3 class="font-tech text-white border-bottom border-neon pb-2 mb-4">
+                        <i class="bi bi-person-badge text-neon me-2"></i> USER_IDENTITY
+                    </h3>
+                    <div class="font-mono text-gray-300">
+                        <p>> ID: Nicolás Anrique (ToaBollua)</p>
+                        <p>> CLASS: Full Stack Engineer / Technical Artist</p>
+                        <p>> OS: Arch Linux (Host) / Debian (Servers)</p>
+                        <br>
+                        <p class="typing-effect">
+                            "Mi código no solo funciona; narra una historia. Busco la convergencia entre la lógica estricta de los microservicios y el caos creativo de la narrativa emergente."
+                        </p>
+                    </div>
+                    
+                    <div class="mt-4 p-3 bg-black border border-secondary font-mono x-small">
+                        <div class="text-neon">> LOADING MODULES...</div>
+                        <div class="text-white ms-3">[OK] Python / Django / FastAPI</div>
+                        <div class="text-white ms-3">[OK] React / Vite / Tailwind</div>
+                        <div class="text-white ms-3">[OK] Docker / Kafka / Postgres</div>
+                        <div class="text-white ms-3">[OK] Worldbuilding & Narrative Design</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="h0p3" class="section-padding bg-dark-subtle position-relative overflow-hidden">
-        <div class="grid-bg"></div>
-        
-        <div class="container position-relative z-2">
-            <div class="text-center mb-5" data-aos="fade-up">
-                <h2 class="font-tech text-white glitch-sm" data-text="PROJECT H0P3">PROJECT H0P3</h2>
-                <p class="font-mono text-neon">ESTADO: ONLINE (v11.0 GOLDEN MASTER)</p>
-            </div>
+    <div id="projects" class="container section-padding">
+        <h2 class="font-tech text-center text-white mb-5 glitch" data-text="SYSTEM_PROJECTS">SYSTEM_PROJECTS</h2>
 
-            <div class="row align-items-center border-neon p-4 glass-panel" data-aos="flip-up">
-                <div class="col-lg-7 mb-4 mb-lg-0">
-                    <img src="assets/image_cb4d9f.jpg" class="img-fluid rounded border border-secondary shadow-lg dashboard-img" alt="H0P3 Dashboard Interface">
+        <div class="terminal-card mb-5" data-aos="fade-up">
+            <div class="card-header-terminal d-flex justify-content-between">
+                <span>PROJECT: H0P3</span>
+                <span>STATUS: ONLINE</span>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-7 position-relative">
+                    <img src="assets/dashboard.png" class="img-fluid h-100 object-fit-cover opacity-80" alt="H0P3 Dashboard">
+                    <div class="img-overlay"></div>
                 </div>
-                <div class="col-lg-5 ps-lg-5">
-                    <h3 class="font-tech text-white">IA SOBERANA & MULTIMODAL</h3>
-                    <p class="font-sans text-gray-400 mt-3">
-                        Un sistema operativo vivo. H0P3 no es un chatbot; es una entidad con memoria persistente (RAG), ojos (Visión por Computadora) y manos (Control de OBS/Minecraft).
+                <div class="col-lg-5 p-4 bg-darker d-flex flex-column justify-content-center">
+                    <h3 class="font-tech text-neon mb-3">H0P3 // AI CORE</h3>
+                    <p class="font-mono text-gray-400">
+                        Sistema de Inteligencia Artificial Soberana. Orquestación de microservicios para crear una entidad con memoria persistente (RAG), visión y capacidad de acción (OBS/Minecraft).
                     </p>
-                    <ul class="list-unstyled font-mono text-small mt-3 text-gray-300">
-                        <li class="mb-2"><i class="bi bi-cpu text-neon me-2"></i> Cerebro Híbrido (Llama3 + Gemini)</li>
-                        <li class="mb-2"><i class="bi bi-database text-neon me-2"></i> Memoria Vectorial (pgvector)</li>
-                        <li class="mb-2"><i class="bi bi-broadcast text-neon me-2"></i> Integración Twitch & Discord</li>
-                        <li class="mb-2"><i class="bi bi-eye text-neon me-2"></i> WebXR & Visión Computacional</li>
-                    </ul>
-                    <div class="mt-4">
-                        <span class="badge border border-success text-success bg-transparent">PYTHON</span>
-                        <span class="badge border border-success text-success bg-transparent">DOCKER</span>
-                        <span class="badge border border-success text-success bg-transparent">KAFKA</span>
+                    <div class="tech-stack font-mono x-small text-dim mb-4">
+                        [LLAMA-3] [KAFKA] [DOCKER] [REACT]
+                    </div>
+                    <div class="mt-auto">
+                        <button class="btn btn-terminal-sm w-100" disabled>SISTEMA PRIVADO</button>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="terminal-card mb-5" data-aos="fade-up">
+            <div class="card-header-terminal d-flex justify-content-between border-color-blue">
+                <span>PROJECT: BROKER_NUAM</span>
+                <span>ARCH: DISTRIBUTED</span>
+            </div>
+            <div class="row g-0 flex-row-reverse">
+                <div class="col-lg-7 position-relative">
+                    <div class="h-100 bg-black d-flex align-items-center justify-content-center border-start border-secondary p-5">
+                        <div class="font-mono text-success text-start w-100">
+                            > initializing broker_socket...<br>
+                            > connecting to redis_cache... [OK]<br>
+                            > listening on port 8000...<br>
+                            > matching orders... <span class="blink">_</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 p-4 bg-darker d-flex flex-column justify-content-center">
+                    <h3 class="font-tech text-info mb-3">BROKER NUAM</h3>
+                    <p class="font-mono text-gray-400">
+                        Simulador bursátil de alta concurrencia diseñado para arquitecturas distribuidas. Gestión de órdenes en tiempo real, comunicación por Sockets y persistencia en entorno Debian.
+                    </p>
+                    <div class="tech-stack font-mono x-small text-dim mb-4">
+                        [DJANGO] [REDIS] [LINUX] [THREADS]
+                    </div>
+                    <div class="mt-auto">
+                        <a href="https://github.com/toabollua/BrokerNUAM" target="_blank" class="btn btn-terminal-sm-blue w-100">
+                            <i class="bi bi-github"></i> ACCESS REPOSITORY
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="gallery" class="section-padding container">
+        <div class="terminal-border p-3" data-aos="zoom-in">
+            <div class="d-flex justify-content-between mb-3 font-mono text-neon x-small">
+                <span>/OPT/GALLERY/RENDER_CACHE</span>
+                <span>[READ_ONLY]</span>
+            </div>
+            
+            <div id="artCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/archwp.png" class="d-block w-100 carousel-img" alt="Art 1">
+                        <div class="carousel-caption d-none d-md-block terminal-caption">
+                            <h5 class="font-tech">GLITCH_ENTITY_01</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/GoldenMaster.jpg" class="d-block w-100 carousel-img" alt="Art 2">
+                        <div class="carousel-caption d-none d-md-block terminal-caption">
+                            <h5 class="font-tech">GOLDEN_MASTER</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/dreamer.png" class="d-block w-100 carousel-img" alt="Art 3">
+                        <div class="carousel-caption d-none d-md-block terminal-caption">
+                            <h5 class="font-tech">NEURAL_DREAM_RENDER</h5>
+                        </div>
+                    </div>
+                     <div class="carousel-item">
+                        <img src="assets/w10wp.jpg" class="d-block w-100 carousel-img" alt="Art 4">
+                          <div class="carousel-caption d-none d-md-block terminal-caption">
+                            <h5 class="font-tech">DESIGN_TEST</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#artCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-black border border-neon p-3" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#artCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-black border border-neon p-3" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
     </section>
 
-    <section id="portfolio" class="section-padding container">
-        <h2 class="font-tech text-white mb-5 text-center" data-aos="fade-up"><span class="text-neon">03.</span> ARCHIVOS & PROYECTOS</h2>
+    <section id="socials" class="section-padding container text-center">
+        <h2 class="font-tech text-white mb-5"><span class="text-neon">>></span> EXTERNAL_LINKS</h2>
         
-        <div class="row g-4">
+        <div class="row justify-content-center g-4">
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="card h-100 bg-black border-dim hover-neon">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-3">
-                            <i class="bi bi-folder2-open text-neon fs-2"></i>
-                            <a href="https://github.com/toabollua" target="_blank" class="text-gray-400 hover-white"><i class="bi bi-github fs-4"></i></a>
-                        </div>
-                        <h4 class="card-title font-tech text-white">BrokerNUAM</h4>
-                        <p class="card-text font-sans text-gray-400 small">
-                            Simulador bursátil de alta concurrencia. Arquitectura distribuida optimizada para entornos Debian/Linux con comunicación vía Sockets y manejo de hilos.
-                        </p>
+                <a href="https://linktr.ee/toabollua" target="_blank" class="text-decoration-none">
+                    <div class="social-card">
+                        <i class="bi bi-tree-fill fs-1 text-success mb-3 d-block"></i>
+                        <h4 class="font-mono text-white">LINKTREE</h4>
+                        <p class="font-mono text-dim x-small">Central Hub</p>
                     </div>
-                    <div class="card-footer bg-transparent border-0 font-mono x-small text-neon">
-                        Debian Native · Django · Redis
-                    </div>
-                </div>
+                </a>
             </div>
-
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="card h-100 bg-black border-dim hover-neon">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-3">
-                            <i class="bi bi-book text-info fs-2"></i>
-                            <a href="#" class="text-gray-400 hover-white"><i class="bi bi-file-earmark-text fs-4"></i></a>
-                        </div>
-                        <h4 class="card-title font-tech text-white">Notusatsu Bible</h4>
-                        <p class="card-text font-sans text-gray-400 small">
-                            Documento de Diseño de Juego (GDD) y Worldbuilding para un universo distópico. Narrativa técnica y mecánicas.
-                        </p>
+                <a href="https://github.com/toabollua" target="_blank" class="text-decoration-none">
+                    <div class="social-card">
+                        <i class="bi bi-github fs-1 text-white mb-3 d-block"></i>
+                        <h4 class="font-mono text-white">GITHUB</h4>
+                        <p class="font-mono text-dim x-small">Source Code</p>
                     </div>
-                    <div class="card-footer bg-transparent border-0 font-mono x-small text-info">
-                        Lore · GDD · Writing
-                    </div>
-                </div>
+                </a>
             </div>
-
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="card h-100 bg-black border-dim hover-neon">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-3">
-                            <i class="bi bi-palette text-warning fs-2"></i>
-                            <a href="#" class="text-gray-400 hover-white"><i class="bi bi-images fs-4"></i></a>
-                        </div>
-                        <h4 class="card-title font-tech text-white">GlitchPoint Art</h4>
-                        <p class="card-text font-sans text-gray-400 small">
-                            Colección de arte técnico, shaders y estética glitch generada por código y edición digital.
-                        </p>
+                <a href="https://instagram.com/toa_bollua" target="_blank" class="text-decoration-none">
+                    <div class="social-card">
+                        <i class="bi bi-instagram fs-1 text-danger mb-3 d-block"></i>
+                        <h4 class="font-mono text-white">INSTAGRAM</h4>
+                        <p class="font-mono text-dim x-small">Visual Logs</p>
                     </div>
-                    <div class="card-footer bg-transparent border-0 font-mono x-small text-warning">
-                        Design · Shaders · CSS
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
 
-    <footer id="contact" class="bg-black text-center py-5 border-top border-secondary mt-5">
-        <div class="container" data-aos="zoom-in">
-            <h3 class="font-tech text-white mb-4">INICIAR ENLACE</h3>
-            <p class="font-mono text-gray-400 mb-4">¿Tienes una idea? ¿Un bug en la realidad? Hablemos.</p>
-            
-            <div class="d-flex justify-content-center gap-4 mb-5">
-                <a href="https://github.com/ToaBollua" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>
-                <a href="https://linktr.ee/toabollua" target="_blank" class="social-icon"><i class="bi bi-tree"></i></a>
-                <a href="mailto:contact@toabollua.dev" class="social-icon"><i class="bi bi-envelope-at"></i></a>
+    <footer class="bg-black border-top border-secondary py-4 mt-5">
+        <div class="container d-flex justify-content-between align-items-center font-mono x-small text-dim">
+            <div>
+                <span>© 2025 GLITCHPOINT LABS.</span>
             </div>
-            
-            <p class="font-mono x-small text-secondary">
-                © 2025 GLITCHPOINT LABS. SYSTEM STATUS: NOMINAL.<br>
-                DESIGNED BY BOLLUA.
-            </p>
+            <div>
+                <span class="blink">SYSTEM_ONLINE</span>
+            </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        // Init Animations
-        AOS.init({
-            duration: 800,
-            once: true,
-            mirror: false
-        });
-        
-        console.log("%c SYSTEM READY // WELCOME ARCHITECT", "color: #00ff00; background: #000; font-size: 20px; padding: 10px;");
+        AOS.init({ duration: 800, once: true });
+        console.log("%c SYSTEM READY // WELCOME ARCHITECT", "color: #00ff00; background: #000; font-size: 16px; padding: 5px;");
     </script>
 </body>
 </html>
